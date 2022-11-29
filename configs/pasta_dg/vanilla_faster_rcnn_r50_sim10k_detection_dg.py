@@ -28,7 +28,7 @@ lr_config = dict(
 
 runner = dict(type="IterBasedRunner", max_iters=10000)
 
-evaluation = dict(interval=100, metric="bbox", save_best="bbox_mAP_50")
+evaluation = dict(interval=1000, metric="bbox", save_best="bbox_mAP_50")
 
 log_config = dict(
     interval=100,
