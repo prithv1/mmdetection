@@ -10,7 +10,7 @@ model = dict(
 
 # Modify dataset related settings
 # dataset_type='COCODataset'
-work_dir = "/coc/scratch/prithvi/detection_dg/code_verification/faster_rcnn_r50_sim10k_detection_dg_pasta"
+work_dir = "faster_rcnn_r50_sim10k_detection_dg_pasta"
 classes = ("car",)
 auto_scale_lr = dict(enable=True, base_batch_size=32)
 
